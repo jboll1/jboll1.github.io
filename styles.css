@@ -19,7 +19,7 @@ header {
   }
   
 .switch input {
-    display: none;
+    appearance: none;
   }
   
 .slider {
@@ -36,8 +36,8 @@ header {
 .slider:before {
     position: absolute;
     content: "";
-    height: 1em;
-    width: 1em;
+    height: 26px;
+    width: 26px;
     left: 4px;
     bottom: 4px;
     background-color: white;

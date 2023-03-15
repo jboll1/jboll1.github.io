@@ -36,8 +36,8 @@ header {
 .slider:before {
     position: absolute;
     content: "";
-    height: 26px;
-    width: 26px;
+    height: 1em;
+    width: 1em;
     left: 4px;
     bottom: 4px;
     background-color: white;
@@ -46,7 +46,7 @@ header {
   }
   
 input:checked + .slider {
-    background-color: #2196F3;
+    background-color: #21f360;
   }
   
 input:checked + .slider:before {
